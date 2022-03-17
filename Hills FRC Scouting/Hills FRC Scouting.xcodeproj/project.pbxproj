@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F03ADCE27DD9D1400F98EEE /* Hills_FRC_ScoutingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F03ADCD27DD9D1400F98EEE /* Hills_FRC_ScoutingApp.swift */; };
+		6F03ADD027DD9D1400F98EEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F03ADCF27DD9D1400F98EEE /* ContentView.swift */; };
+		6F03ADD227DD9D1A00F98EEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F03ADD127DD9D1A00F98EEE /* Assets.xcassets */; };
+		6F03ADD527DD9D1A00F98EEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F03ADD427DD9D1A00F98EEE /* Preview Assets.xcassets */; };
+		6F03ADDF27DD9D1A00F98EEE /* Hills_FRC_ScoutingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F03ADDE27DD9D1A00F98EEE /* Hills_FRC_ScoutingTests.swift */; };
+		6F03ADE927DD9D1A00F98EEE /* Hills_FRC_ScoutingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F03ADE827DD9D1A00F98EEE /* Hills_FRC_ScoutingUITests.swift */; };
+		6F03ADEB27DD9D1A00F98EEE /* Hills_FRC_ScoutingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F03ADEA27DD9D1A00F98EEE /* Hills_FRC_ScoutingUITestsLaunchTests.swift */; };
+		6F03ADFA27DEA61700F98EEE /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F03ADF927DEA61600F98EEE /* Launch Screen.storyboard */; };
+		6FA38C8427E2A36900528A95 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA38C8327E2A36900528A95 /* Notifications.swift */; };
+		6FA38C8627E2A47B00528A95 /* Teams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA38C8527E2A47A00528A95 /* Teams.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6F03ADDB27DD9D1A00F98EEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F03ADC227DD9D1400F98EEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F03ADC927DD9D1400F98EEE;
+			remoteInfo = "Hills FRC Scouting";
+		};
+		6F03ADE527DD9D1A00F98EEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6F03ADC227DD9D1400F98EEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F03ADC927DD9D1400F98EEE;
+			remoteInfo = "Hills FRC Scouting";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F03ADCA27DD9D1400F98EEE /* Hills-FRC-Scouting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hills-FRC-Scouting.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F03ADCD27DD9D1400F98EEE /* Hills_FRC_ScoutingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hills_FRC_ScoutingApp.swift; sourceTree = "<group>"; };
+		6F03ADCF27DD9D1400F98EEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6F03ADD127DD9D1A00F98EEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6F03ADD427DD9D1A00F98EEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6F03ADDA27DD9D1A00F98EEE /* Hills FRC ScoutingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hills FRC ScoutingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F03ADDE27DD9D1A00F98EEE /* Hills_FRC_ScoutingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hills_FRC_ScoutingTests.swift; sourceTree = "<group>"; };
+		6F03ADE427DD9D1A00F98EEE /* Hills FRC ScoutingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hills FRC ScoutingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F03ADE827DD9D1A00F98EEE /* Hills_FRC_ScoutingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hills_FRC_ScoutingUITests.swift; sourceTree = "<group>"; };
+		6F03ADEA27DD9D1A00F98EEE /* Hills_FRC_ScoutingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hills_FRC_ScoutingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6F03ADF927DEA61600F98EEE /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "Hills FRC Scouting/Launch Screen.storyboard"; sourceTree = SOURCE_ROOT; };
+		6FA38C8327E2A36900528A95 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		6FA38C8527E2A47A00528A95 /* Teams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teams.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6F03ADC727DD9D1400F98EEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F03ADD727DD9D1A00F98EEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F03ADE127DD9D1A00F98EEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F03ADC127DD9D1400F98EEE = {
+			isa = PBXGroup;
+			children = (
+				6F03ADCC27DD9D1400F98EEE /* Hills FRC Scouting */,
+				6F03ADDD27DD9D1A00F98EEE /* Hills FRC ScoutingTests */,
+				6F03ADE727DD9D1A00F98EEE /* Hills FRC ScoutingUITests */,
+				6F03ADCB27DD9D1400F98EEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6F03ADCB27DD9D1400F98EEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F03ADCA27DD9D1400F98EEE /* Hills-FRC-Scouting.app */,
+				6F03ADDA27DD9D1A00F98EEE /* Hills FRC ScoutingTests.xctest */,
+				6F03ADE427DD9D1A00F98EEE /* Hills FRC ScoutingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F03ADCC27DD9D1400F98EEE /* Hills FRC Scouting */ = {
+			isa = PBXGroup;
+			children = (
+				6F03ADCD27DD9D1400F98EEE /* Hills_FRC_ScoutingApp.swift */,
+				6F03ADCF27DD9D1400F98EEE /* ContentView.swift */,
+				6FA38C8327E2A36900528A95 /* Notifications.swift */,
+				6F03ADF927DEA61600F98EEE /* Launch Screen.storyboard */,
+				6F03ADD127DD9D1A00F98EEE /* Assets.xcassets */,
+				6FA38C8527E2A47A00528A95 /* Teams.swift */,
+				6F03ADD327DD9D1A00F98EEE /* Preview Content */,
+			);
+			path = "Hills FRC Scouting";
+			sourceTree = "<group>";
+		};
+		6F03ADD327DD9D1A00F98EEE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6F03ADD427DD9D1A00F98EEE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6F03ADDD27DD9D1A00F98EEE /* Hills FRC ScoutingTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F03ADDE27DD9D1A00F98EEE /* Hills_FRC_ScoutingTests.swift */,
+			);
+			path = "Hills FRC ScoutingTests";
+			sourceTree = "<group>";
+		};
+		6F03ADE727DD9D1A00F98EEE /* Hills FRC ScoutingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6F03ADE827DD9D1A00F98EEE /* Hills_FRC_ScoutingUITests.swift */,
+				6F03ADEA27DD9D1A00F98EEE /* Hills_FRC_ScoutingUITestsLaunchTests.swift */,
+			);
+			path = "Hills FRC ScoutingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6F03ADC927DD9D1400F98EEE /* Hills FRC Scouting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F03ADEE27DD9D1A00F98EEE /* Build configuration list for PBXNativeTarget "Hills FRC Scouting" */;
+			buildPhases = (
+				6F03ADC627DD9D1400F98EEE /* Sources */,
+				6F03ADC727DD9D1400F98EEE /* Frameworks */,
+				6F03ADC827DD9D1400F98EEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hills FRC Scouting";
+			productName = "Hills FRC Scouting";
+			productReference = 6F03ADCA27DD9D1400F98EEE /* Hills-FRC-Scouting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6F03ADD927DD9D1A00F98EEE /* Hills FRC ScoutingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F03ADF127DD9D1A00F98EEE /* Build configuration list for PBXNativeTarget "Hills FRC ScoutingTests" */;
+			buildPhases = (
+				6F03ADD627DD9D1A00F98EEE /* Sources */,
+				6F03ADD727DD9D1A00F98EEE /* Frameworks */,
+				6F03ADD827DD9D1A00F98EEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F03ADDC27DD9D1A00F98EEE /* PBXTargetDependency */,
+			);
+			name = "Hills FRC ScoutingTests";
+			productName = "Hills FRC ScoutingTests";
+			productReference = 6F03ADDA27DD9D1A00F98EEE /* Hills FRC ScoutingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F03ADE327DD9D1A00F98EEE /* Hills FRC ScoutingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F03ADF427DD9D1A00F98EEE /* Build configuration list for PBXNativeTarget "Hills FRC ScoutingUITests" */;
+			buildPhases = (
+				6F03ADE027DD9D1A00F98EEE /* Sources */,
+				6F03ADE127DD9D1A00F98EEE /* Frameworks */,
+				6F03ADE227DD9D1A00F98EEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6F03ADE627DD9D1A00F98EEE /* PBXTargetDependency */,
+			);
+			name = "Hills FRC ScoutingUITests";
+			productName = "Hills FRC ScoutingUITests";
+			productReference = 6F03ADE427DD9D1A00F98EEE /* Hills FRC ScoutingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6F03ADC227DD9D1400F98EEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					6F03ADC927DD9D1400F98EEE = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					6F03ADD927DD9D1A00F98EEE = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					6F03ADE327DD9D1A00F98EEE = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 6F03ADC927DD9D1400F98EEE;
+					};
+				};
+			};
+			buildConfigurationList = 6F03ADC527DD9D1400F98EEE /* Build configuration list for PBXProject "Hills FRC Scouting" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6F03ADC127DD9D1400F98EEE;
+			productRefGroup = 6F03ADCB27DD9D1400F98EEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F03ADC927DD9D1400F98EEE /* Hills FRC Scouting */,
+				6F03ADD927DD9D1A00F98EEE /* Hills FRC ScoutingTests */,
+				6F03ADE327DD9D1A00F98EEE /* Hills FRC ScoutingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6F03ADC827DD9D1400F98EEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F03ADFA27DEA61700F98EEE /* Launch Screen.storyboard in Resources */,
+				6F03ADD527DD9D1A00F98EEE /* Preview Assets.xcassets in Resources */,
+				6F03ADD227DD9D1A00F98EEE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F03ADD827DD9D1A00F98EEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F03ADE227DD9D1A00F98EEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6F03ADC627DD9D1400F98EEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FA38C8627E2A47B00528A95 /* Teams.swift in Sources */,
+				6FA38C8427E2A36900528A95 /* Notifications.swift in Sources */,
+				6F03ADD027DD9D1400F98EEE /* ContentView.swift in Sources */,
+				6F03ADCE27DD9D1400F98EEE /* Hills_FRC_ScoutingApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F03ADD627DD9D1A00F98EEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F03ADDF27DD9D1A00F98EEE /* Hills_FRC_ScoutingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F03ADE027DD9D1A00F98EEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F03ADE927DD9D1A00F98EEE /* Hills_FRC_ScoutingUITests.swift in Sources */,
+				6F03ADEB27DD9D1A00F98EEE /* Hills_FRC_ScoutingUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6F03ADDC27DD9D1A00F98EEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F03ADC927DD9D1400F98EEE /* Hills FRC Scouting */;
+			targetProxy = 6F03ADDB27DD9D1A00F98EEE /* PBXContainerItemProxy */;
+		};
+		6F03ADE627DD9D1A00F98EEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F03ADC927DD9D1400F98EEE /* Hills FRC Scouting */;
+			targetProxy = 6F03ADE527DD9D1A00F98EEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6F03ADEC27DD9D1A00F98EEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6F03ADED27DD9D1A00F98EEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6F03ADEF27DD9D1A00F98EEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hills FRC Scouting/Preview Content\"";
+				DEVELOPMENT_TEAM = 3Y37SD7924;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Half-Hollow-Hils-Robotics.Hills-FRC-Scouting";
+				PRODUCT_NAME = "Hills-FRC-Scouting";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F03ADF027DD9D1A00F98EEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hills FRC Scouting/Preview Content\"";
+				DEVELOPMENT_TEAM = 3Y37SD7924;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Half-Hollow-Hils-Robotics.Hills-FRC-Scouting";
+				PRODUCT_NAME = "Hills-FRC-Scouting";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6F03ADF227DD9D1A00F98EEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Y37SD7924;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Half-Hollow-Hils-Robotics.Hills-FRC-ScoutingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F03ADF327DD9D1A00F98EEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Y37SD7924;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Half-Hollow-Hils-Robotics.Hills-FRC-ScoutingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6F03ADF527DD9D1A00F98EEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Y37SD7924;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Half-Hollow-Hils-Robotics.Hills-FRC-ScoutingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hills FRC Scouting";
+			};
+			name = Debug;
+		};
+		6F03ADF627DD9D1A00F98EEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Y37SD7924;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Half-Hollow-Hils-Robotics.Hills-FRC-ScoutingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hills FRC Scouting";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6F03ADC527DD9D1400F98EEE /* Build configuration list for PBXProject "Hills FRC Scouting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F03ADEC27DD9D1A00F98EEE /* Debug */,
+				6F03ADED27DD9D1A00F98EEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F03ADEE27DD9D1A00F98EEE /* Build configuration list for PBXNativeTarget "Hills FRC Scouting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F03ADEF27DD9D1A00F98EEE /* Debug */,
+				6F03ADF027DD9D1A00F98EEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F03ADF127DD9D1A00F98EEE /* Build configuration list for PBXNativeTarget "Hills FRC ScoutingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F03ADF227DD9D1A00F98EEE /* Debug */,
+				6F03ADF327DD9D1A00F98EEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F03ADF427DD9D1A00F98EEE /* Build configuration list for PBXNativeTarget "Hills FRC ScoutingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F03ADF527DD9D1A00F98EEE /* Debug */,
+				6F03ADF627DD9D1A00F98EEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6F03ADC227DD9D1400F98EEE /* Project object */;
+}
